@@ -116,6 +116,7 @@ Accessible within the same class or in a derived (inherited) class.
 
 #### 4. Internal Modifier
 Accessible only within the same assembly, not from another assembly.
+
 --- 
 ## Creating a Class
 Use the class keyword to create a class.
