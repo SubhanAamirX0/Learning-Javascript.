@@ -52,21 +52,23 @@ public void ShowDetails()
     Console.WriteLine("Name: " + Name);
     Console.WriteLine("Age: " + Age);
 }
-Constructors
+``` 
+### 2. Constructors
 A special method used to initialize objects.
 public Student(string name, int age)
 {
     Name = name;
     Age = age;
 }
-Access Modifiers
+### 3. Access Modifiers
 Control access to class members.
 public
 private
 protected
 internal
-Access Modifiers Explained
- Private Modifier
+
+### Access Modifiers Explained
+#### 1. Private Modifier
 Accessible only within the same class.
 class Car
 {
@@ -78,10 +80,10 @@ class Car
         Console.WriteLine(myObj.model);
     }
 }
-Output:
+#### Output:
 Mustang
 Accessing it outside the class will cause an error.
-Public Modifier
+#### 2. Public Modifier
 Accessible from all classes.
 class Car
 {
@@ -96,17 +98,16 @@ class Program
         Console.WriteLine(myObj.model);
     }
 }
----
-## Output:
+#### Output:
 Mustang
 By default, all members of a class are private if no access modifier is specified.
 
-## Protected Modifier
+#### 3. Protected Modifier
 Accessible within the same class or in a derived (inherited) class.
 
-## Internal Modifier
+#### 4. Internal Modifier
 Accessible only within the same assembly, not from another assembly.
-
+--- 
 ## Creating a Class
 Use the class keyword to create a class.
 class Car
